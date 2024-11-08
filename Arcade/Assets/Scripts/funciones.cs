@@ -7,23 +7,38 @@ using UnityEngine.UIElements;
 public class funciones : MonoBehaviour
 {
     [SerializeField]
+    GameObject abrirUI;
+    [SerializeField]
     GameObject listado;
     [SerializeField]
     GameObject lasFunciones;
+    bool sacarUI;
 
     void Start()
     {
-        lasFunciones.SetActive(true);
+        sacarUI = false;
+        abrirUI.SetActive(true);
+        lasFunciones.SetActive(false);
         listado.SetActive(false);   
     }
 
     void Update()
     {
-        OnButtonClick eliminar = true;
+        //OnButtonClick eliminar = true;
         
     }
 
-    public void crearObjeto()
+    public void primeraUI()
+    {
+        sacarUI = !sacarUI;
+        if (sacarUI == true)
+        {
+            abrirUI.SetActive(false);
+            lasFunciones.SetActive(true);
+        }
+    }
+
+    /*public void crearObjeto()
     {
         lasFunciones.SetActive(false);
         listado.SetActive(true);
@@ -38,8 +53,8 @@ public class funciones : MonoBehaviour
     {
 
     }
-    public void eliminarObjeto(click)
+    public void eliminarObjeto()
     {
 
-    }
+    }*/
 }
