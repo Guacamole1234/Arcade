@@ -7,25 +7,22 @@ using UnityEngine.UIElements;
 public class funciones : MonoBehaviour
 {
     [SerializeField]
+    float timeAnim;
+    [SerializeField]
+    LeanTweenType animType;
+    [SerializeField]
     GameObject abrirUI;
     [SerializeField]
-    GameObject listado;
+    GameObject lasFuncionesCanvas;
     [SerializeField]
-    GameObject lasFunciones;
+    GameObject lasFuncionesImage;
     bool sacarUI;
 
     void Start()
     {
         sacarUI = false;
         abrirUI.SetActive(true);
-        lasFunciones.SetActive(false);
-        listado.SetActive(false);   
-    }
-
-    void Update()
-    {
-        //OnButtonClick eliminar = true;
-        
+        lasFuncionesCanvas.SetActive(false);  
     }
 
     public void primeraUI()
@@ -34,27 +31,14 @@ public class funciones : MonoBehaviour
         if (sacarUI == true)
         {
             abrirUI.SetActive(false);
-            lasFunciones.SetActive(true);
+            lasFuncionesCanvas.SetActive(true);
+            LeanTween.moveLocalY(lasFuncionesImage, -416f, timeAnim).setEase(animType);
+        }
+        else
+        {
+            sacarUI = false;
+            abrirUI.SetActive(true);
+            lasFuncionesCanvas.SetActive(false);
         }
     }
-
-    /*public void crearObjeto()
-    {
-        lasFunciones.SetActive(false);
-        listado.SetActive(true);
-    }
-
-    public void rotarObjeto()
-    {
-
-    }
-
-    public void moverObjeto()
-    {
-
-    }
-    public void eliminarObjeto()
-    {
-
-    }*/
 }
