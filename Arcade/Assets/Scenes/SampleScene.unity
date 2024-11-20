@@ -288,9 +288,10 @@ GameObject:
   - component: {fileID: 36012277}
   - component: {fileID: 36012276}
   - component: {fileID: 36012275}
+  - component: {fileID: 36012278}
   m_Layer: 5
   m_Name: Asset04
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -359,7 +360,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 36012276}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 36012278}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum7
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &36012276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,6 +411,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36012273}
   m_CullTransparentMesh: 1
+--- !u!114 &36012278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36012273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 7443940486336045920, guid: fb0f0314f6ef35f47856e0021934c945,
+    type: 3}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &74037886
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,9 +551,10 @@ GameObject:
   - component: {fileID: 83849021}
   - component: {fileID: 83849020}
   - component: {fileID: 83849019}
+  - component: {fileID: 83849022}
   m_Layer: 5
   m_Name: Asset16
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -556,7 +623,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 83849020}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 83849022}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum16
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &83849020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,6 +674,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83849017}
   m_CullTransparentMesh: 1
+--- !u!114 &83849022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83849017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 1472067975393826562, guid: 59094b49f14ea3d4ba61667a1816db53,
+    type: 3}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &96048007
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,9 +1018,10 @@ GameObject:
   - component: {fileID: 159696020}
   - component: {fileID: 159696019}
   - component: {fileID: 159696018}
+  - component: {fileID: 159696021}
   m_Layer: 5
   m_Name: Asset11
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -957,7 +1090,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 159696019}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 159696021}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum14
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &159696019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -996,6 +1141,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159696016}
   m_CullTransparentMesh: 1
+--- !u!114 &159696021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159696016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 8733526935897987916, guid: 19359970032403a4fa5f64e464136500,
+    type: 3}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &188895296
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,9 +1683,10 @@ GameObject:
   - component: {fileID: 329823190}
   - component: {fileID: 329823189}
   - component: {fileID: 329823188}
+  - component: {fileID: 329823191}
   m_Layer: 5
   m_Name: Asset13
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1556,7 +1755,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 329823189}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 329823191}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &329823189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1595,6 +1806,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329823186}
   m_CullTransparentMesh: 1
+--- !u!114 &329823191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329823186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 3197061656715563294, guid: c28ff60d1b81dda40b41ad278ac1b629,
+    type: 3}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1757,7 +2021,7 @@ Transform:
   m_GameObject: {fileID: 352495784}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 551, y: -288.4518, z: 4.1901684}
+  m_LocalPosition: {x: 551, y: -288, z: 4.1901684}
   m_LocalScale: {x: 1.8113208, y: 1.8113208, z: 1.8113208}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2107,6 +2371,7 @@ GameObject:
   - component: {fileID: 482582529}
   - component: {fileID: 482582528}
   - component: {fileID: 482582527}
+  - component: {fileID: 482582530}
   m_Layer: 5
   m_Name: Eliminar
   m_TagString: Untagged
@@ -2177,7 +2442,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 482582528}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 482582530}
+        m_TargetAssemblyTypeName: EliminarButton, Assembly-CSharp
+        m_MethodName: CrearUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &482582528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2216,6 +2493,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482582525}
   m_CullTransparentMesh: 1
+--- !u!114 &482582530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482582525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01935e7127abece43b38554aa8a7120a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funcionesImage: {fileID: 836522586}
 --- !u!1 &512363758
 GameObject:
   m_ObjectHideFlags: 0
@@ -2362,6 +2652,7 @@ GameObject:
   - component: {fileID: 512446619}
   - component: {fileID: 512446618}
   - component: {fileID: 512446617}
+  - component: {fileID: 512446620}
   m_Layer: 5
   m_Name: Mover
   m_TagString: Untagged
@@ -2432,7 +2723,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 512446618}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 512446620}
+        m_TargetAssemblyTypeName: MoverButton, Assembly-CSharp
+        m_MethodName: CrearUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &512446618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2471,6 +2774,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512446615}
   m_CullTransparentMesh: 1
+--- !u!114 &512446620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512446615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95f4859748009040bc9cdf45e6fd20f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funcionesImage: {fileID: 836522586}
 --- !u!1 &577148860
 GameObject:
   m_ObjectHideFlags: 0
@@ -2692,9 +3008,10 @@ GameObject:
   - component: {fileID: 734117841}
   - component: {fileID: 734117840}
   - component: {fileID: 734117839}
+  - component: {fileID: 734117842}
   m_Layer: 5
   m_Name: Asset17
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2763,7 +3080,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 734117840}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 734117842}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum17
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &734117840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2802,6 +3131,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734117837}
   m_CullTransparentMesh: 1
+--- !u!114 &734117842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734117837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 5251133407090248707, guid: 716ad39023189134b868d7657d35810a,
+    type: 3}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &744396571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2948,8 +3330,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 3197061656715563294, guid: c28ff60d1b81dda40b41ad278ac1b629,
+    type: 3}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 3197061656715563294, guid: c28ff60d1b81dda40b41ad278ac1b629, type: 3}
+  Bailesote: {fileID: 6956290504070272278, guid: 0f2ef1cc121ecf543b3ac4c60258b445,
+    type: 3}
+  Pinball: {fileID: 6819139568525722823, guid: 4e8b7e3111e03c74ba9b1d859b9ad20f, type: 3}
+  Suelo: {fileID: 2058537911406313563, guid: 0765d8d9f60cbe84f9d2ae38a5f41890, type: 3}
+  Columna: {fileID: 2873013943480114509, guid: 42c6f7a4c42c474449ffcb244225410a, type: 3}
+  Muro: {fileID: 8371963855084358258, guid: 16260fae7500b444bb63a41cc2c62eda, type: 3}
+  Esquina: {fileID: 7443940486336045920, guid: fb0f0314f6ef35f47856e0021934c945, type: 3}
+  Puerta: {fileID: 2861789668725363403, guid: da76c4ee8c6b555429af48032a8f83fb, type: 3}
+  Ventana: {fileID: 458609690913217437, guid: b4c29ef5a09fd074c8461cc93a17c77d, type: 3}
+  Cliente: {fileID: 8763336634940436809, guid: fc3ce9aa0ea1eb7428bac92158e03919, type: 3}
+  Furro: {fileID: 6279186258565019712, guid: 60e5e2020fc64c34c911bc1eb39b0fa5, type: 3}
+  Ludopatia: {fileID: 218460550184397073, guid: 85ef884ff1ac33c4ca499284c5619f72,
+    type: 3}
+  Arcade: {fileID: 8501290737680067181, guid: 4c2d6d19584c0b547a306cb9bd7792e3, type: 3}
+  BalonJuego: {fileID: 8733526935897987916, guid: 19359970032403a4fa5f64e464136500,
+    type: 3}
+  LaCaja: {fileID: 6247306237557402557, guid: 591f993712d8b6a4eac6dd591e1c7ead, type: 3}
+  LaFortunosa: {fileID: 1472067975393826562, guid: 59094b49f14ea3d4ba61667a1816db53,
+    type: 3}
+  Ticketadora: {fileID: 5251133407090248707, guid: 716ad39023189134b868d7657d35810a,
+    type: 3}
+  Expendedora: {fileID: 7150212302266618490, guid: 7656b63a01e26f84bae5ad9371df36dd,
+    type: 3}
   listadoCanva: {fileID: 1440536809}
   listadoImage: {fileID: 352495784}
+  funcionesImage: {fileID: 836522586}
+  selectObject: {fileID: 0}
 --- !u!1 &765222583
 GameObject:
   m_ObjectHideFlags: 0
@@ -3175,9 +3602,10 @@ GameObject:
   - component: {fileID: 782326153}
   - component: {fileID: 782326152}
   - component: {fileID: 782326151}
+  - component: {fileID: 782326154}
   m_Layer: 5
   m_Name: Asset10
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3246,7 +3674,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 782326152}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 782326154}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum13
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &782326152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3285,6 +3725,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 782326149}
   m_CullTransparentMesh: 1
+--- !u!114 &782326154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782326149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 8501290737680067181, guid: 4c2d6d19584c0b547a306cb9bd7792e3,
+    type: 3}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &815528901
 GameObject:
   m_ObjectHideFlags: 0
@@ -3518,16 +4011,16 @@ RectTransform:
   m_LocalScale: {x: 11.446597, y: 1.5922, z: 1.5922}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1324758335}
   - {fileID: 744396572}
   - {fileID: 1095689885}
   - {fileID: 512446616}
   - {fileID: 482582526}
-  - {fileID: 1324758335}
   m_Father: {fileID: 1267590475}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.6, y: -816}
+  m_AnchoredPosition: {x: 17.6, y: -623}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &836522588
@@ -3580,9 +4073,10 @@ GameObject:
   - component: {fileID: 852361816}
   - component: {fileID: 852361815}
   - component: {fileID: 852361814}
+  - component: {fileID: 852361817}
   m_Layer: 5
   m_Name: Asset06
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3651,7 +4145,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 852361815}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 852361817}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum9
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &852361815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3690,6 +4196,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852361812}
   m_CullTransparentMesh: 1
+--- !u!114 &852361817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852361812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 458609690913217437, guid: b4c29ef5a09fd074c8461cc93a17c77d,
+    type: 3}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &944816772
 GameObject:
   m_ObjectHideFlags: 0
@@ -3777,9 +4336,10 @@ GameObject:
   - component: {fileID: 957112864}
   - component: {fileID: 957112863}
   - component: {fileID: 957112862}
+  - component: {fileID: 957112865}
   m_Layer: 5
   m_Name: Asset03
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3848,7 +4408,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 957112863}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 957112865}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &957112863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3887,6 +4459,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957112860}
   m_CullTransparentMesh: 1
+--- !u!114 &957112865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957112860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 8371963855084358258, guid: 16260fae7500b444bb63a41cc2c62eda,
+    type: 3}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &969131359
 GameObject:
   m_ObjectHideFlags: 0
@@ -4183,9 +4808,10 @@ GameObject:
   - component: {fileID: 1007148814}
   - component: {fileID: 1007148813}
   - component: {fileID: 1007148812}
+  - component: {fileID: 1007148815}
   m_Layer: 5
   m_Name: Asset02
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4254,7 +4880,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1007148813}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1007148815}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1007148813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4293,108 +4931,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007148810}
   m_CullTransparentMesh: 1
---- !u!1 &1021107472
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1021107476}
-  - component: {fileID: 1021107475}
-  - component: {fileID: 1021107474}
-  - component: {fileID: 1021107473}
-  m_Layer: 5
-  m_Name: abrir/cerrarFuncionesUI
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1021107473
+--- !u!114 &1007148815
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021107472}
+  m_GameObject: {fileID: 1007148810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1021107474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021107472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &1021107475
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021107472}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1021107476
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021107472}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1335551271}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 2873013943480114509, guid: 42c6f7a4c42c474449ffcb244225410a,
+    type: 3}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &1041039070
 GameObject:
   m_ObjectHideFlags: 0
@@ -4620,6 +5209,7 @@ GameObject:
   - component: {fileID: 1095689888}
   - component: {fileID: 1095689887}
   - component: {fileID: 1095689886}
+  - component: {fileID: 1095689889}
   m_Layer: 5
   m_Name: Rotar
   m_TagString: Untagged
@@ -4690,7 +5280,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1095689887}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1095689889}
+        m_TargetAssemblyTypeName: RotarButton, Assembly-CSharp
+        m_MethodName: CrearUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1095689887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4729,6 +5331,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095689884}
   m_CullTransparentMesh: 1
+--- !u!114 &1095689889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095689884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf25c17d8f3d894bbd533aec8cab8dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funcionesImage: {fileID: 836522586}
 --- !u!1 &1105948662
 GameObject:
   m_ObjectHideFlags: 0
@@ -5220,9 +5835,10 @@ GameObject:
   - component: {fileID: 1165491518}
   - component: {fileID: 1165491517}
   - component: {fileID: 1165491516}
+  - component: {fileID: 1165491519}
   m_Layer: 5
   m_Name: Asset05
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5291,7 +5907,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1165491517}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1165491519}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum8
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1165491517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5330,6 +5958,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165491514}
   m_CullTransparentMesh: 1
+--- !u!114 &1165491519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165491514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 2861789668725363403, guid: da76c4ee8c6b555429af48032a8f83fb,
+    type: 3}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &1193822974
 GameObject:
   m_ObjectHideFlags: 0
@@ -5476,9 +6157,10 @@ GameObject:
   - component: {fileID: 1202322419}
   - component: {fileID: 1202322418}
   - component: {fileID: 1202322417}
+  - component: {fileID: 1202322420}
   m_Layer: 5
   m_Name: Asset15
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5547,7 +6229,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1202322418}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1202322420}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1202322418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5586,6 +6280,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202322415}
   m_CullTransparentMesh: 1
+--- !u!114 &1202322420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202322415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 6819139568525722823, guid: 4e8b7e3111e03c74ba9b1d859b9ad20f,
+    type: 3}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &1238114977
 GameObject:
   m_ObjectHideFlags: 0
@@ -5600,7 +6347,7 @@ GameObject:
   - component: {fileID: 1238114978}
   m_Layer: 0
   m_Name: Suelo
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6014,9 +6761,10 @@ GameObject:
   - component: {fileID: 1293000551}
   - component: {fileID: 1293000550}
   - component: {fileID: 1293000549}
+  - component: {fileID: 1293000552}
   m_Layer: 5
   m_Name: Asset18
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6085,7 +6833,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1293000550}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1293000552}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum18
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1293000550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6124,6 +6884,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293000547}
   m_CullTransparentMesh: 1
+--- !u!114 &1293000552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293000547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 7150212302266618490, guid: 7656b63a01e26f84bae5ad9371df36dd,
+    type: 3}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &1319454112
 GameObject:
   m_ObjectHideFlags: 0
@@ -6226,7 +7039,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324758334}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6236,7 +7049,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 47, y: 66.8}
+  m_AnchoredPosition: {x: 46.99997, y: 69}
   m_SizeDelta: {x: 6, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1324758336
@@ -6282,7 +7095,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1324758337}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1324758339}
+        m_TargetAssemblyTypeName: funciones, Assembly-CSharp
+        m_MethodName: primeraUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1324758337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6330,160 +7155,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1324758334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27eab0d9f4a2f684db920848494cb88f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  funcionesImage: {fileID: 836522586}
---- !u!1 &1335551266
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1335551271}
-  - component: {fileID: 1335551270}
-  - component: {fileID: 1335551269}
-  - component: {fileID: 1335551268}
-  - component: {fileID: 1335551267}
-  m_Layer: 5
-  m_Name: abrir/cerrarFuncionesUI
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1335551267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1335551266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad745aaa73bb31419556215589f5cfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timeAnim: 1
   animType: 24
-  abrirUI: {fileID: 1335551266}
-  lasFuncionesCanvas: {fileID: 1267590471}
   lasFuncionesImage: {fileID: 836522586}
---- !u!114 &1335551268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1335551266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 1, g: 0, b: 0, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1335551269}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1335551267}
-        m_TargetAssemblyTypeName: funciones, Assembly-CSharp
-        m_MethodName: primeraUI
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1335551269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1335551266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1335551270
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1335551266}
-  m_CullTransparentMesh: 1
---- !u!224 &1335551271
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1335551266}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6.642948, y: 19.714687, z: 6.7398334}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1021107476}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: 3}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1357536646
 GameObject:
   m_ObjectHideFlags: 0
@@ -6496,9 +7173,10 @@ GameObject:
   - component: {fileID: 1357536650}
   - component: {fileID: 1357536649}
   - component: {fileID: 1357536648}
+  - component: {fileID: 1357536651}
   m_Layer: 5
   m_Name: Asset09
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6567,7 +7245,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1357536649}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1357536651}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum12
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1357536649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6606,6 +7296,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357536646}
   m_CullTransparentMesh: 1
+--- !u!114 &1357536651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357536646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 218460550184397073, guid: 85ef884ff1ac33c4ca499284c5619f72,
+    type: 3}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &1361954275
 GameObject:
   m_ObjectHideFlags: 0
@@ -7199,9 +7942,10 @@ GameObject:
   - component: {fileID: 1614740744}
   - component: {fileID: 1614740743}
   - component: {fileID: 1614740742}
+  - component: {fileID: 1614740745}
   m_Layer: 5
   m_Name: Asset14
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7270,7 +8014,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1614740743}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1614740745}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1614740743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7309,6 +8065,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614740740}
   m_CullTransparentMesh: 1
+--- !u!114 &1614740745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614740740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 6956290504070272278, guid: 0f2ef1cc121ecf543b3ac4c60258b445,
+    type: 3}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &1621860115
 GameObject:
   m_ObjectHideFlags: 0
@@ -7321,9 +8130,10 @@ GameObject:
   - component: {fileID: 1621860119}
   - component: {fileID: 1621860118}
   - component: {fileID: 1621860117}
+  - component: {fileID: 1621860120}
   m_Layer: 5
   m_Name: Asset01
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7392,7 +8202,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1621860118}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1621860120}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1621860118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7431,6 +8253,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1621860115}
   m_CullTransparentMesh: 1
+--- !u!114 &1621860120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621860115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 2058537911406313563, guid: 0765d8d9f60cbe84f9d2ae38a5f41890,
+    type: 3}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &1713844270
 GameObject:
   m_ObjectHideFlags: 0
@@ -7863,9 +8738,10 @@ GameObject:
   - component: {fileID: 1822638412}
   - component: {fileID: 1822638411}
   - component: {fileID: 1822638410}
+  - component: {fileID: 1822638413}
   m_Layer: 5
   m_Name: Asset07
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7934,7 +8810,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1822638411}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1822638413}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum10
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1822638411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7973,6 +8861,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822638408}
   m_CullTransparentMesh: 1
+--- !u!114 &1822638413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822638408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 8763336634940436809, guid: fc3ce9aa0ea1eb7428bac92158e03919,
+    type: 3}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &1873005914
 GameObject:
   m_ObjectHideFlags: 0
@@ -7985,9 +8926,10 @@ GameObject:
   - component: {fileID: 1873005918}
   - component: {fileID: 1873005917}
   - component: {fileID: 1873005916}
+  - component: {fileID: 1873005919}
   m_Layer: 5
   m_Name: Asset12
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8056,7 +8998,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1873005917}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1873005919}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum15
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1873005917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8095,6 +9049,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873005914}
   m_CullTransparentMesh: 1
+--- !u!114 &1873005919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873005914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 0}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 6247306237557402557, guid: 591f993712d8b6a4eac6dd591e1c7ead,
+    type: 3}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &1882202707
 GameObject:
   m_ObjectHideFlags: 0
@@ -8394,9 +9401,10 @@ GameObject:
   - component: {fileID: 1983619956}
   - component: {fileID: 1983619955}
   - component: {fileID: 1983619954}
+  - component: {fileID: 1983619957}
   m_Layer: 5
   m_Name: Asset08
-  m_TagString: Untagged
+  m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8465,7 +9473,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1983619955}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1983619957}
+        m_TargetAssemblyTypeName: CrearButton, Assembly-CSharp
+        m_MethodName: ObjetoNum11
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1983619955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8504,6 +9524,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983619952}
   m_CullTransparentMesh: 1
+--- !u!114 &1983619957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983619952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee7c8140ee240b499baad9160c130cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objeto_Gancho: {fileID: 0}
+  Objeto_Bailesote: {fileID: 0}
+  Objeto_Pinball: {fileID: 0}
+  Objeto_Suelo: {fileID: 0}
+  Objeto_Columna: {fileID: 0}
+  Objeto_Muro: {fileID: 0}
+  Objeto_Esquina: {fileID: 0}
+  Objeto_Puerta: {fileID: 0}
+  Objeto_Ventana: {fileID: 0}
+  Objeto_Cliente: {fileID: 0}
+  Objeto_Furro: {fileID: 6279186258565019712, guid: 60e5e2020fc64c34c911bc1eb39b0fa5,
+    type: 3}
+  Objeto_Ludopatia: {fileID: 0}
+  Objeto_Arcade: {fileID: 0}
+  Objeto_BalonJuego: {fileID: 0}
+  Objeto_LaCaja: {fileID: 0}
+  Objeto_LaFortunosa: {fileID: 0}
+  Objeto_Ticketadora: {fileID: 0}
+  Objeto_Expendedora: {fileID: 0}
+  Gancho: {fileID: 0}
+  Bailesote: {fileID: 0}
+  Pinball: {fileID: 0}
+  Suelo: {fileID: 0}
+  Columna: {fileID: 0}
+  Muro: {fileID: 0}
+  Esquina: {fileID: 0}
+  Puerta: {fileID: 0}
+  Ventana: {fileID: 0}
+  Cliente: {fileID: 0}
+  Furro: {fileID: 0}
+  Ludopatia: {fileID: 0}
+  Arcade: {fileID: 0}
+  BalonJuego: {fileID: 0}
+  LaCaja: {fileID: 0}
+  LaFortunosa: {fileID: 0}
+  Ticketadora: {fileID: 0}
+  Expendedora: {fileID: 0}
+  listadoCanva: {fileID: 0}
+  listadoImage: {fileID: 0}
+  funcionesImage: {fileID: 0}
+  selectObject: {fileID: 0}
 --- !u!1 &2024135023
 GameObject:
   m_ObjectHideFlags: 0
@@ -8799,4 +9872,3 @@ SceneRoots:
   - {fileID: 109141299}
   - {fileID: 1440536813}
   - {fileID: 1238114981}
-  - {fileID: 1021107476}

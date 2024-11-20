@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class MoverButton : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    GameObject funcionesImage;
+    bool enFunciones = true;
+    bool enCreacion = false;
 
-    // Update is called once per frame
-    void Update()
+    public void CrearUI()
     {
-        
+        enCreacion = !enCreacion;
+        if (enCreacion)
+        {
+            LeanTween.moveLocalY(funcionesImage, -623f, 1).setEase(LeanTweenType.easeOutBounce);
+            enFunciones = false;
+        }
+        else if (!enCreacion)
+        {
+            LeanTween.moveLocalY(funcionesImage, -416f, 1).setEase(LeanTweenType.easeOutBounce);
+            enFunciones = false;
+        }
     }
 }

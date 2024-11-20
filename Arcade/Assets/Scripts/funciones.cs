@@ -11,32 +11,20 @@ public class funciones : MonoBehaviour
     [SerializeField]
     LeanTweenType animType;
     [SerializeField]
-    GameObject abrirUI;
-    [SerializeField]
-    GameObject lasFuncionesCanvas;
-    [SerializeField]
     GameObject lasFuncionesImage;
     bool sacarUI = false;
 
-    void Start()
-    {
-        abrirUI.SetActive(true);
-        lasFuncionesCanvas.SetActive(false);
-    }
-
     public void primeraUI()
     {
-        if (!sacarUI)
+        if (sacarUI == false)
         {
-            abrirUI.SetActive(false);
-            lasFuncionesCanvas.SetActive(true);
             LeanTween.moveLocalY(lasFuncionesImage, -416f, timeAnim).setEase(animType);
+            sacarUI = true;
         }
-        /*else
+        else if (sacarUI == true)
         {
+            LeanTween.moveLocalY(lasFuncionesImage, -623f, timeAnim).setEase(animType);
             sacarUI = false;
-            abrirUI.SetActive(true);
-            lasFuncionesCanvas.SetActive(false);
-        }*/
+        }
     }
 }
