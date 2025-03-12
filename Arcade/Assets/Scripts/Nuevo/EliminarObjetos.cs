@@ -32,7 +32,7 @@ public class EliminarObjetos : MonoBehaviour
 
     private void SeleccionarObjetoAEliminar()
     {
-        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit) && Input.GetMouseButtonDown(0) && hit.collider.gameObject.layer != capaDeBase)
+        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit) && Input.GetMouseButtonDown(0) && !hit.collider.gameObject.CompareTag("Suelo"))
         {
             eliminandoObjeto = false;
             Destroy(hit.collider.gameObject);

@@ -12,6 +12,11 @@ public class MoverObjetos : MonoBehaviour
     private bool seleccionandoObjeto = false;
 
     [SerializeField] private GameObject objetoActual;
+    [SerializeField] private GameObject sombraSeleccion;
+
+    [SerializeField] private Vector3 escalaAnimacionSombra;
+    [SerializeField] private float duracionAnimacionSombra;
+    [SerializeField] private LeanTweenType animacionSombra;
 
     private void Awake()
     {
@@ -23,6 +28,13 @@ public class MoverObjetos : MonoBehaviour
         {
             Destroy(this);
         }
+    }
+
+    private void Start()
+    {
+        sombraSeleccion.SetActive(false);
+        escalaAnimacionSombra.y = sombraSeleccion.transform.localScale.y;
+        LeanTween.scale(sombraSeleccion, escalaAnimacionSombra, duracionAnimacionSombra).setEase(animacionSombra).setLoopPingPong();
     }
 
     private void Update()
@@ -46,10 +58,9 @@ public class MoverObjetos : MonoBehaviour
             if (objetoActual != null)
             {
                 objetoActual.transform.position = hit.point;
-            }
-            else
-            {
-                Debug.Log("No hay objeto asignado");
+
+                sombraSeleccion.SetActive(true);
+                sombraSeleccion.transform.position = objetoActual.transform.position;
             }
         }
     }
@@ -58,6 +69,7 @@ public class MoverObjetos : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            sombraSeleccion.SetActive(false);
             moviendoObjeto = false;
             objetoActual = null;
         }
@@ -77,7 +89,7 @@ public class MoverObjetos : MonoBehaviour
 
     private void SeleccionarObjetoManualmente()
     {
-        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit) && Input.GetMouseButtonDown(0) && hit.collider.gameObject.layer != capaDeBase)
+        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit) && Input.GetMouseButtonDown(0) && !hit.collider.gameObject.CompareTag("Suelo"))
         {
             seleccionandoObjeto = false;
             moviendoObjeto = true;
